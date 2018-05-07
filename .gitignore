@@ -1,0 +1,23 @@
+# Created by https://www.gitignore.io
+
+### Node ###
+# Dependency directory
+node_modules
+npm-debug.log
+
+### WebStorm ###
+.idea/
+
+### Coverage ###
+/coverage/
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+dist

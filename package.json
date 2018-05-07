@@ -1,0 +1,30 @@
+{
+  "name": "@anarh/scss-theme-example",
+  "version": "0.0.0",
+  "description": "Theming with pure css through scss",
+  "main": "dist/style.css",
+  "scripts": {
+    "build:css": "node-sass src/index.scss dist/index.css --importer node_modules/node-sass-import",
+    "lint:css": "sass-lint 'src/**/*.scss' -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anarh/scss-theme-example.git"
+  },
+  "keywords": [
+    "css",
+    "variables"
+  ],
+  "author": "Emmanuel Addo Narh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anarh/scss-theme-example/issues"
+  },
+  "homepage": "https://github.com/anarh/scss-theme-example#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "node-sass-import": "^2.0.0",
+    "sass-lint": "^1.12.1"
+  }
+}
