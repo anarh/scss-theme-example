@@ -1,6 +1,6 @@
 {
   "name": "@anarh/scss-theme-example",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Theming with pure css through scss",
   "main": "dist/style.css",
   "scripts": {
