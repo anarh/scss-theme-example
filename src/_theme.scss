@@ -1,6 +1,7 @@
 @import 'colors';
 
-$theme-primary: $color-neutral;
-$theme-secondary: $color-cobalt;
-$theme-tertiary: $color-denim;
-$theme-background: $color-white;
+:root {
+  @each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+}

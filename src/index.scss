@@ -1,6 +1,11 @@
 @import 'theme';
 
 h1 {
-  color: $theme-primary;
+  color: var(--color-primary);
   font-size: 30px;
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: 20px;
 }
