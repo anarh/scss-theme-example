@@ -28,5 +28,8 @@
     "node-sass": "^4.9.0",
     "node-sass-import": "^2.0.1",
     "sass-lint": "^1.12.1"
+  },
+  "dependencies": {
+    "hiq": "^2.3.0-beta"
   }
 }
