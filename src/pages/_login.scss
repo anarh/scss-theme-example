@@ -1,0 +1,18 @@
+.hiq-well {
+  &.hiq-login-well {
+    @media ($desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+
+    .hiq-account-links {
+      @include horizontal-list-li;
+      text-align: center;
+    }
+
+    .is-full-width {
+      width: 100%;
+    }
+  }
+}

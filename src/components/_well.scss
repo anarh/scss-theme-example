@@ -1,0 +1,30 @@
+.hiq-well {
+  margin-top: 1.25rem;
+  padding: 2rem;
+  border: 1px solid var(--hiq-gray-lighter);
+  border-radius: 0.25rem 0.25rem;
+  
+  + .highlight {
+    margin-bottom: 2rem;
+  }
+  
+  // > * {
+  //   margin-bottom: 0;
+  // }
+  
+  button:not(:last-child) {
+    margin-bottom: 0.35rem;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .has-text-truncated {
+    max-width: 30rem;
+  }
+}

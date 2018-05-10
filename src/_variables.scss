@@ -2,4 +2,12 @@ $desktop: 'min-width: 800px';
 
 :root {
   --hiq-color-primary: #1e237e; // hsl(210, 100%, 50%);
+  --hiq-container-horizontal-gap: 1.5rem;
+  --hiq-max-container-width: 60rem;
+  --hiq-gray-darker: hsl(220, 10%, 10%);
+  --hiq-gray-dark: hsl(220, 10%, 20%);
+  --hiq-gray: hsl(220, 10%, 40%);
+  --hiq-gray-light: hsl(220, 10%, 60%);
+  --hiq-gray-lighter: hsl(220, 10%, 90%);
+  --hiq-gray-lightest: hsl(220, 10%, 95%);
 }
