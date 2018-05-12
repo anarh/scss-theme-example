@@ -1,9 +1,9 @@
 .hiq-well {
   .is-full-width {
-    width: 100%;
     margin-top: 1rem;
+    width: 100%;
   }
-    
+
   &.hiq-login-well {
     @media ($desktop) {
       margin-left: auto;
@@ -15,8 +15,10 @@
       @include horizontal-list-li;
       text-align: center;
     }
+  }
 
-    .is-login-form-error {
+  p {
+    &.is-form-error {
       color: var(--hiq-color-danger);
       margin-bottom: 1rem;
     }
