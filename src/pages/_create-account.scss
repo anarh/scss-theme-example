@@ -7,11 +7,13 @@
     }
 
     .input-container {
+      flex-basis: 0;
       flex-grow: 1;
       padding-left: 1rem;
       padding-right: 1rem;
 
       @media ($mobile-only) {
+        flex-basis: auto;
         padding-left: 0;
         padding-right: 0;
       }
