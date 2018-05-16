@@ -1,6 +1,6 @@
 {
   "name": "scss-theme-example",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Theming with pure css through scss",
   "main": "dist/style.css",
   "scripts": {
