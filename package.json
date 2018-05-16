@@ -4,6 +4,7 @@
   "description": "Theming with pure css through scss",
   "main": "dist/style.css",
   "scripts": {
+    "start": "npm run build:css -- -w",
     "build": "npm run build:css",
     "build:css": "node-sass src/index.scss dist/index.css --importer node_modules/node-sass-import",
     "lint": "npm run lint:css",

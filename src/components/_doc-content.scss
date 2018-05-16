@@ -1,10 +1,10 @@
 .doc-content {
-  order: 1;
-  max-width: 100%;
-  margin-top: 2rem;
-  padding-bottom: 3rem;
   font-size: 1.1rem;
   line-height: 1.6;
+  margin-top: 2rem;
+  max-width: 100%;
+  order: 1;
+  padding-bottom: 3rem;
 
   @media ($desktop) {
     flex: 1;
@@ -16,9 +16,10 @@
   }
 
   h2 {
+    font-weight: 300;
     margin-top: 1rem;
     padding-top: 3rem;
-    font-weight: 300;
+
     @media ($desktop) {
       margin-top: calc(calc(var(--navbar-height) + 3rem) * -1 + 4rem);
       padding-top: calc(var(--navbar-height) + 3rem);
@@ -26,9 +27,10 @@
   }
 
   h3 {
-    padding-top: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
+    padding-top: 2rem;
+
     @media ($desktop) {
       margin-top: calc(var(--navbar-height) * -1);
       padding-top: calc(var(--navbar-height) + 3rem);
@@ -46,12 +48,12 @@
 
     td {
       code {
-        padding: 0;
-        border: 0;
-        border-radius: 0;
         background-color: transparent;
-        white-space: pre-wrap;
+        border-radius: 0;
+        border: 0;
         color: var(--hiq-color-primary);
+        padding: 0;
+        white-space: pre-wrap;
       }
 
       p {
@@ -80,6 +82,7 @@
   }
   figure {
     margin: 2rem 0 3rem;
+    
     @media ($desktop) {
       margin: 3rem 0 5rem;
     }
@@ -112,6 +115,7 @@
 .properties-table {
   .name {
     white-space: normal;
+    
     @media ($desktop) {
       width: 18rem;
     }
@@ -124,12 +128,14 @@
 
 .utilities-table {
   .name {
+    
     @media ($desktop) {
       width: 14rem;
     }
   }
   
   .mixin-class {
+    
     @media ($desktop) {
       width: 15rem;
     }

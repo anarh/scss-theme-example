@@ -5,6 +5,7 @@ $mobile-only: 'max-width: 35rem';
   --hiq-color-primary: #1e237e; // hsl(210, 100%, 50%);
   --hiq-container-horizontal-gap: 1.5rem;
   --hiq-max-container-width: 60rem;
+  --hiq-white: #ffffff;
   --hiq-gray-darker: hsl(220, 10%, 10%);
   --hiq-gray-dark: hsl(220, 10%, 20%);
   --hiq-gray: hsl(220, 10%, 40%);
@@ -16,6 +17,7 @@ $mobile-only: 'max-width: 35rem';
   --hiq-color-success: hsl(158, 73%, 48%);
   --hiq-color-warning: hsl(46, 97%, 64%);
   --hiq-color-danger: hsl(352, 95%, 61%);
+
+  --navbar-height: 3.75rem;
+  --navbar-desktop-width: 240px;
 }
-
-

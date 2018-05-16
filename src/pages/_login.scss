@@ -1,9 +1,4 @@
 .hiq-well {
-  .is-full-width {
-    margin-top: 1rem;
-    width: 100%;
-  }
-
   &.hiq-login-well {
     @media ($desktop) {
       margin-left: auto;
@@ -23,4 +18,9 @@
       margin-bottom: 1rem;
     }
   }
+}
+
+.is-full-width {
+  margin-top: 1rem;
+  width: 100%;
 }
