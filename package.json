@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run build:css -- -w",
     "build": "npm run build:css",
+    "postbuild": "node lib/extract-css-variables",
     "build:css": "node-sass src/index.scss dist/index.css --importer node_modules/node-sass-import",
     "lint": "npm run lint:css",
     "lint:css": "sass-lint 'src/**/*.scss' -v",
@@ -29,6 +30,7 @@
     "hiq": "^2.3.0-beta",
     "node-sass": "^4.9.0",
     "node-sass-import": "^2.0.1",
+    "rework": "^1.0.1",
     "sass-lint": "^1.12.1"
   },
   "dependencies": {}
